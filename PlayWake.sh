@@ -2,8 +2,8 @@
 # updating alarmclock settings
 # Yannick Lambregts - 09/06/2021
 pkill mplayer
-/home/pi/Documents/Alarm/UpdatePlaylists.sh > /dev/null
-nohup mplayer -playlist /home/pi/Documents/Alarm/PlaylistWakeOneRandom.m3u 2>&1 > /dev/null
+/home/pi/klok/UpdatePlaylists.sh > /dev/null
+nohup mplayer -playlist /home/pi/klok/PlaylistWakeOneRandom.m3u 2>&1 > /dev/null
 
 
 
