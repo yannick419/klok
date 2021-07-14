@@ -2,6 +2,10 @@
 # Install alarmclock settings
 # Yannick Lambregts - 09/06/2021
 echo
+echo updating git
+git pull
+echo
+echo
 echo installing mplayer
 sudo apt-get install mplayer
 echo
