@@ -22,5 +22,5 @@ echo updating playlists
 ./UpdatePlaylists.sh
 echo ------
 echo
-echo Dit sluit binnen 10 seconden
-sleep 10
+echo Dit sluit binnen 100 seconden
+sleep 100
