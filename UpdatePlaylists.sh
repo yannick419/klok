@@ -9,6 +9,4 @@ shuf -n 1 /home/pi/klok/PlaylistSleep.m3u > /home/pi/klok/PlaylistSleepOneRandom
 shuf -n 1 /home/pi/klok/PlaylistWake.m3u > /home/pi/klok/PlaylistWakeOneRandom.m3u
 echo playlists are updated
 echo
-echo will close in 10 seconds
-sleep 10
-
+echo
