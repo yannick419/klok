@@ -5,10 +5,10 @@ echo
 echo updating git
 git pull
 echo ------
-echo
-echo make scripts executable
-find -type f -iname "*.sh" -exec chmod +x {} \;
-echo ------
+#echo
+#echo make scripts executable
+#find -type f -iname "*.sh" -exec chmod +x {} \;
+#echo ------
 echo
 echo installing mplayer
 sudo apt-get install mplayer
