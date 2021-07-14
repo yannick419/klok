@@ -1,6 +1,6 @@
 #!/bin/bash
 # Install alarmclock settings
-# Yannick Lambregts - 09/06/2021
+# Yannick Lambregts - 14/07/2021
 echo
 echo updating git
 git pull
