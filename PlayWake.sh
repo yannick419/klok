@@ -1,10 +1,23 @@
 #!/bin/bash
-# updating alarmclock settings
+# Play alarm
 # Yannick Lambregts - 09/06/2021
-pkill mplayer
-/home/pi/klok/UpdatePlaylists.sh > /dev/null
-nohup mplayer -playlist /home/pi/klok/PlaylistWakeOneRandom.m3u 2>&1 > /dev/null
 
+# 2Do only play alarm when the alarm switch is on
+
+# 2Do activate light
+
+# 2Do how to stop alarm early?
+# wheb snooze butten is clicked: 
+# pkill mplayer
+# sleep x
+# play again
+
+# Muziek speler stoppen in geval dit nog aan staat
+pkill mplayer
+# Play alarm
+nohup mplayer -playlist /home/pi/klok/PlaylistWakeOneRandom.m3u 2>&1 > /dev/null
+# shuffle song for next alarm
+/home/pi/klok/UpdatePlaylists.sh > /dev/null
 
 
 #not working triels
