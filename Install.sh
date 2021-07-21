@@ -15,6 +15,11 @@ sudo apt-get install mplayer
 echo ------
 
 echo
+echo installing pirate-audio
+git clone https://github.com/pimoroni/pirate-audio
+echo ------
+
+echo
 echo update
 ./Update.sh
 echo ------
