@@ -15,6 +15,11 @@ sudo apt-get install mplayer
 echo ------
 
 echo
+echo update
+./Update.sh
+echo ------
+
+echo
 echo installing pirate-audio
 git clone https://github.com/pimoroni/pirate-audio
 cd pirate-audio/mopidy
@@ -22,10 +27,9 @@ sudo ./install.sh
 echo ------
 
 echo
-echo update
-./Update.sh
-echo ------
-
 echo
-echo Dit sluit binnen 100 seconden
-sleep 100
+echo
+echo
+echo De installatie is compleet.
+echo Dit sluit binnen 10 seconden.
+sleep 10
