@@ -31,5 +31,6 @@ echo
 echo
 echo
 echo De installatie is compleet.
-echo Dit sluit binnen 10 seconden.
+echo Herstarten binnen 10 seconden.
 sleep 10
+sudo reboot
