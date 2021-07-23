@@ -11,7 +11,7 @@
 
 echo
 echo installing mplayer
-sudo apt-get install mplayer
+sudo apt-get install mplayer -y
 echo ------
 
 echo
