@@ -1,4 +1,4 @@
 * * * * * /home/pi/klok/PlayWake.sh >> log.log
-* * * * * /home/pi/klok/Update.sh >> Update.log
+* * * * * /home/pi/klok/Update.sh > Update.log
 #* * * * * /home/pi/klok/PlayWake.sh >> log.log
 #* * * * * /home/pi/klok/Update.sh > /dev/null 2>&1
