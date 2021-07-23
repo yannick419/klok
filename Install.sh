@@ -20,12 +20,12 @@ cd /home/pi/klok
 ./Update.sh
 echo ------
 
-echo
-echo installing pirate-audio
-git clone https://github.com/pimoroni/pirate-audio
-cd pirate-audio/mopidy
-sudo ./install.sh
-echo ------
+#echo
+#echo installing pirate-audio
+#git clone https://github.com/pimoroni/pirate-audio
+#cd pirate-audio/mopidy
+#sudo ./install.sh
+#echo ------
 
 echo
 echo
