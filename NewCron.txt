@@ -1,4 +1,4 @@
-* * * * * date > home/pi/klok/crontest.log
+* * * * * date > /klok/crontest.log
 * * * * * /home/pi/klok/Update.sh > /dev/null 2>&1
 * * * * * mplayer -really-quiet home/pi/klok/Wake/alarmbeep.mp3 -volume 100 > /dev/null 2>&1
 
