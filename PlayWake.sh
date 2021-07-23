@@ -14,12 +14,12 @@
 
 # Muziek speler stoppen in geval dit nog aan staat
 pkill mplayer
-date >> /klok/log.log
-echo mplayer killed >> /klok/log.log
+date >> klok/log.log
+echo mplayer killed >> log.log
 
 # Play alarm
 #nohup mplayer -playlist /home/pi/klok/PlaylistWakeOneRandom.m3u 2>&1 > /dev/null
-nohup mplayer -playlist /home/pi/klok/PlaylistWakeOneRandom.m3u 2>&1 >> /klok/log.log
+nohup mplayer -playlist /home/pi/klok/PlaylistWakeOneRandom.m3u 2>&1 >> /log.log
 # shuffle song for next alarm
 #/home/pi/klok/UpdatePlaylists.sh > /dev/null
 /home/pi/klok/UpdatePlaylists.sh >> /klok/log.log
