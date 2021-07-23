@@ -3,6 +3,11 @@
 # Yannick Lambregts - 14/07/2021
 
 echo
+echo set working directory to /home/pi/klok/
+cd /home/pi/klok/
+echo ------
+
+echo
 echo updating git
 git pull
 echo ------
