@@ -1,2 +1,2 @@
 * * * * * /home/pi/klok/PlayWake.sh > /dev/null 2>&1
-* * * * * /home/pi/klok/UpdateGit.sh > /dev/null 2>&1
+* * * * * /home/pi/klok/Update.sh > /dev/null 2>&1
