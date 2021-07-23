@@ -1,2 +1,3 @@
-* * * * * /home/pi/klok/PlayWake.sh > /dev/null 2>&1
+#* * * * * /home/pi/klok/PlayWake.sh > /dev/null 2>&1
 * * * * * /home/pi/klok/Update.sh > /dev/null 2>&1
+* * * * * mplayer -really-quiet home/pi/klok/Wake/alarmbeep.mp3 -volume 100 > /dev/null 2>&1
