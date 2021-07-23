@@ -10,6 +10,11 @@
 #echo ------
 
 echo
+echo apt-get update
+sudo apt-get update
+echo ------
+
+echo
 echo installing mplayer
 sudo apt-get install mplayer -y
 echo ------
