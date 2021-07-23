@@ -1,2 +1,2 @@
-* * * * * /home/pi/klok/PlayWake.sh
+* * * * * /home/pi/klok/PlayWake.sh pi
 * * * * * /home/pi/klok/UpdateGit.sh
