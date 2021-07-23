@@ -16,6 +16,7 @@ echo ------
 
 echo
 echo update
+cd /home/pi/klok
 ./Update.sh
 echo ------
 
