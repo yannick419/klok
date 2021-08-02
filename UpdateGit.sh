@@ -1,6 +1,13 @@
 #!/bin/bash
-# updating alarmclock git files
-# Yannick Lambregts - 14/07/2021
+# Updating alarmclock git files
+# Yannick Lambregts - 02/08/2021
 
-cd /home/pi/klok
+echo
+echo set working directory to /home/pi/klok/
+cd /home/pi/klok/
+echo ------
+
+echo
+echo updating git
 git pull
+echo ------
