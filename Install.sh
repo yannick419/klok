@@ -3,6 +3,10 @@
 # Yannick Lambregts - 14/07/2021
 
 # 2Do set variable of working directory and use this in all scripts.
+sudo export klokDir=$(PWD)/klok
+echo working dir= 
+echo $klokDir
+
 
 #echo
 #echo make scripts executable

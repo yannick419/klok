@@ -12,6 +12,11 @@
 # sleep x
 # play again
 
+# 2Do use the variable "klokDir"
+echo klokDir= 
+echo $klokDir
+echo
+
 # Muziek speler stoppen in geval dit nog aan staat
 pkill mplayer
 date >> LogPlayWake.log
