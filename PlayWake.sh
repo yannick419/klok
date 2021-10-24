@@ -2,6 +2,9 @@
 # Play alarm
 # Yannick Lambregts - 09/06/2021
 
+# clear and create LogPlayWake.log
+date > LogPlayWake.log
+
 # 2Do only play alarm when the alarm switch is on
 
 # 2Do activate light
