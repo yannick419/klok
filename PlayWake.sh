@@ -27,7 +27,8 @@ echo mplayer killed >> LogPlayWake.log
 nohup mplayer -playlist /home/pi/klok/PlaylistWakeOneRandom.m3u 2>&1 >> LogPlayWake.log
 # shuffle song for next alarm
 #/home/pi/klok/UpdatePlaylists.sh > /dev/null
-/home/pi/klok/UpdatePlaylists.sh >> LogPlayWake.log
+#/home/pi/klok/UpdatePlaylists.sh >> LogPlayWake.log
+/home/pi/klok/Update.sh
 
 
 #not working triels
