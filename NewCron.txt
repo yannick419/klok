@@ -1,2 +1,2 @@
 55 5 * * 1-5 /home/pi/klok/PlayWake.sh > logPlay.log
-# * * * * * /home/pi/klok/PlayWake.sh > logPlay.log
+* * * * * /home/pi/klok/PlayWake.sh > logPlay.log
