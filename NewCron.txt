@@ -1,4 +1,4 @@
 55 5 * * 1-5 /home/pi/klok/PlayWake.sh > logPlay.log
-* * * * * /home/pi/klok/PlayWake.sh > logPlay.log
+# * * * * * /home/pi/klok/PlayWake.sh > logPlay.log
 @reboot python /home/pi/klok/buttons.py &
 @reboot /home/pi/klok/Update.sh > logPlay.log
